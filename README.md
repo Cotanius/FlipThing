@@ -5,7 +5,7 @@
 ![GIF](https://github.com/Cotanius/FlipThing/blob/main/Media/Flipthing.gif)
 
 ## Breakdown
-There is a modular prefab that includes a camera and a MeshRenderer. It generates an array mesh on awake from a given pixel mesh and a few parameters. The mesh has it's texcoord1 property used for indexing the pixels for them to alligned to a texture that is filled by the camera. It's color property is used for the local coordinates of each pixel mesh. Animation is done by introducing a Time.deltaTime operation while writing from the camera's target RenderTexture to a Texture2D that is assigned to the shader.
+There is a modular prefab that includes a camera and a MeshRenderer. It generates an array mesh on awake from a given pixel mesh and a few parameters. The mesh has it's texcoord1 property used for indexing the pixels for them to be alligned to a RenderTexture that is filled by the camera. It's color property is used for the local coordinates of each pixel mesh. Animation is done by introducing a Time.deltaTime operation while writing from the camera's target RenderTexture to a Texture2D that is assigned to the shader.
 
 ## Usage
 
